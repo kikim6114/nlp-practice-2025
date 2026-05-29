@@ -26,7 +26,7 @@ def install_requirements(
             ["transformers", "datasets", "accelerate", "sentencepiece", "bertviz"],
             ["transformers", "datasets", "accelerate", "sentencepiece", "seqeval"],
             ["transformers", "datasets", "accelerate", "sentencepiece"],
-            ["transformers", "accelerate", "sentencepiece", "sacrebleu", "rouge-score", "nltk", "py7zr"],
+            ["transformers", "datasets", "accelerate", "sentencepiece", "sacrebleu", "rouge-score", "nltk", "py7zr"],
             ["transformers", "datasets", "haystack"],
             ["transformers", "accelerate", "optuna", "onnxruntime", "onnx"],
             ["transformers", "datasets", "accelerate", "nlpaug", "scikit-multilearn", "sacremoses"],
