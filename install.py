@@ -37,6 +37,7 @@ def install_requirements(
         cmd += "-r requirements-chapter7.txt -f https://download.pytorch.org/whl/torch_stable.html".split()
     elif chapter == 7.2:
         cmd += "-r requirements-chapter7-v2.txt".split() # requirements file for 7.2
+        print("installing packages for chapter 7.2 ...", cmd)
     else:
         cmd += libs[chapter-1]
 
